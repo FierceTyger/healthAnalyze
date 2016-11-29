@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="HoloCircularProgressBar">
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="progress" format="float"/>
+        <attr name="marker_progress" format="float"/>
+        <attr name="progress_color" format="color"/>
+        <attr name="progress_background_color" format="color"/>
+        <attr name="thumb_visible" format="boolean"/>
+        <attr name="marker_visible" format="boolean"/>
+        <attr name="android:gravity"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgress">
+        <attr name="color1" format="reference|color"/>
+        <attr name="color2" format="reference|color"/>
+        <attr name="color3" format="reference|color"/>
+    </declare-styleable>
+
+    <attr name="circularProgressBarStyle" format="reference"/>
+
+    <declare-styleable name="ColorPicker">
+        <attr name="color_wheel_radius" format="dimension"/>
+        <attr name="color_wheel_thickness" format="dimension"/>
+        <attr name="color_center_radius" format="dimension"/>
+        <attr name="color_center_halo_radius" format="dimension"/>
+        <attr name="color_pointer_radius" format="dimension"/>
+        <attr name="color_pointer_halo_radius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="ColorBars">
+        <attr name="bar_thickness" format="dimension"/>
+        <attr name="bar_length" format="dimension"/>
+        <attr name="bar_pointer_radius" format="dimension"/>
+        <attr name="bar_pointer_halo_radius" format="dimension"/>
+        <attr name="bar_orientation_horizontal" format="boolean"/>
+    </declare-styleable>
+
+</resources>
